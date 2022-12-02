@@ -14,7 +14,6 @@ export default async (event) => {
         break
       }
     }
-    console.log(name)
     const { data } = await axios.get('https://www.league-funny.com/' + name + '/golden')
     const $ = cheerio.load(data)
     const articles = []
@@ -62,7 +61,7 @@ export default async (event) => {
     if (articles.length === 0) event.reply('查無此類型文章')
     else {
       event.reply(reply)
-      // writejson(reply, 'debug_articles')
+      writejson(reply, 'debug_articles')
     }
   } catch (error) {
     console.error('發生錯誤', error)

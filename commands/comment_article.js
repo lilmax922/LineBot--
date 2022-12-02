@@ -9,7 +9,6 @@ export default async (event) => {
     const topicArr = [{ chi: '!討論 英雄聯盟', eng: '!comment lol', url: 'lol' }, { chi: '!討論 遊戲', eng: '!comment gaming', url: 'gaming' }, { chi: '!討論 apex英雄', eng: '!comment apex', url: 'apexleagues' }, { chi: '!討論 寶可夢', eng: '!comment pokemon', url: 'pokemon' }, { chi: '!討論 鬥陣特工', eng: '!comment overwatch', url: 'overwatch' }, { chi: '!討論 steam', eng: '!comment steam', url: 'steam' }, { chi: '!討論 聯盟戰旗', eng: '!comment tft', url: 'TFT' }, { chi: '!討論 遊戲王', eng: '!comment yugioh', url: 'yugioh' }, { chi: '!討論 爐石戰記', eng: '!comment hs', url: 'hs' }, { chi: '!討論 激鬥峽谷', eng: '!comment lolm', url: 'lolm' }, { chi: '!討論 特戰英豪', eng: '!comment valorant', url: 'valorant' }, { chi: '!討論 傳說對決', eng: '!comment aov', url: 'moba' }, { chi: '!討論 俠盜獵車手', eng: '!comment gta', url: 'gta' }, { chi: '!討論 絕地求生', eng: '!comment pubg', url: 'PUBG' }, { chi: '!討論 csgo', eng: '!comment csgo', url: 'csgo' }, { chi: '!討論 手遊', eng: '!comment mobilegame', url: 'mobileGame' }, { chi: '!討論 福利', eng: '!comment hso', url: 'hotchick/' }, { chi: '!討論 八卦', eng: '!comment gossiping', url: 'gossiping' }, { chi: '!討論 娛樂', eng: '!comment funny', url: 'funny' }, { chi: '!討論 電影', eng: '!comment movie', url: 'movie' }, { chi: '!討論 寵物', eng: '!comment pet', url: 'pet' }, { chi: '!討論 動漫', eng: '!comment acg', url: 'acg' }, { chi: '!討論 3c', eng: '!comment 3c', url: '3c' }, { chi: '!討論 運動', eng: '!comment sport', url: 'sport' }, { chi: '!討論 迷因', eng: '!comment meme', url: 'meme' }]
 
     for (let i = 0; i < topicArr.length; i++) {
-      // console.log(topicArr[i])
       if (event.message.text === topicArr[i].eng || event.message.text === topicArr[i].chi) {
         name = topicArr[i].url
         break
@@ -62,7 +61,7 @@ export default async (event) => {
     if (articles.length === 0) event.reply('查無此類型文章')
     else {
       event.reply(reply)
-      // writejson(reply, 'debug_articles')
+      writejson(reply, 'debug_articles')
     }
   } catch (error) {
     console.error('發生錯誤', error)

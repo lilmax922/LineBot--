@@ -9,13 +9,11 @@ export default async (event) => {
     const topicArr = [{ chi: '最新', eng: 'new', url: 'new' }, { chi: '!最新 英雄聯盟', eng: '!new lol', url: 'lol' }, { chi: '!最新 遊戲', eng: '!new gaming', url: 'gaming' }, { chi: '!最新 apex英雄', eng: '!new apex', url: 'apexleagues' }, { chi: '!最新 寶可夢', eng: '!new pokemon', url: 'pokemon' }, { chi: '!最新 鬥陣特工', eng: '!new overwatch', url: 'overwatch' }, { chi: '!最新 steam', eng: '!new steam', url: 'steam' }, { chi: '!最新 聯盟戰旗', eng: '!new tft', url: 'TFT' }, { chi: '!最新 遊戲王', eng: '!new yugioh', url: 'yugioh' }, { chi: '!最新 爐石戰記', eng: '!new hs', url: 'hs' }, { chi: '!最新 激鬥峽谷', eng: '!new lolm', url: 'lolm' }, { chi: '!最新 特戰英豪', eng: '!new valorant', url: 'valorant' }, { chi: '!最新 傳說對決', eng: '!new aov', url: 'moba' }, { chi: '!最新 俠盜獵車手', eng: '!new gta', url: 'gta' }, { chi: '!最新 絕地求生', eng: '!new pubg', url: 'PUBG' }, { chi: '!最新 csgo', eng: '!new csgo', url: 'csgo' }, { chi: '!最新 手遊', eng: '!new mobilegame', url: 'mobileGame' }, { chi: '!最新 福利', eng: '!new hso', url: 'hotchick' }, { chi: '!最新 八卦', eng: '!new gossiping', url: 'gossiping' }, { chi: '!最新 娛樂', eng: '!new funny', url: 'funny' }, { chi: '!最新 電影', eng: '!new movie', url: 'movie' }, { chi: '!最新 寵物', eng: '!new pet', url: 'pet' }, { chi: '!最新 動漫', eng: '!new acg', url: 'acg' }, { chi: '!最新 3c', eng: '!new 3c', url: '3c' }, { chi: '!最新 運動', eng: '!new sport', url: 'sport' }, { chi: '!最新 迷因', eng: '!new meme', url: 'meme' }]
 
     for (let i = 0; i < topicArr.length; i++) {
-      // console.log(topicArr[i])
       if (event.message.text === topicArr[i].chi || event.message.text === topicArr[i].eng) {
         name = topicArr[i].url
         break
       }
     }
-    console.log(name)
     const { data } = await axios.get('https://www.league-funny.com/' + name + '/new')
     const $ = cheerio.load(data)
     const articles = []
@@ -63,7 +61,7 @@ export default async (event) => {
     if (articles.length === 0) event.reply('查無此類型文章')
     else {
       event.reply(reply)
-      // writejson(reply, 'debug_articles')
+      writejson(reply, 'debug_articles')
     }
   } catch (error) {
     console.error('發生錯誤', error)

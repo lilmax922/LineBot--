@@ -14,13 +14,10 @@ export default async (event) => {
       if ($(this).hasClass('video') || $(this).hasClass('article')) {
         // 圖片
         bubble.hero.url = $(this).find('.content-box .img img').attr('src') || 'https://raw.githubusercontent.com/lilmax922/Photos/main/640px-Image_not_available.png'
-        console.log(bubble.hero.url)
         // 標題
         bubble.body.contents[0].text = $(this).find('.content-box .text a h2').text() || $(this).find('.content-box .img img').attr('alt') || '此篇無標題QQ'
-        console.log(bubble.body.contents[0].text)
         // 分類
         bubble.body.contents[1].contents[0].contents[0].text = event.message.text
-        console.log(bubble.body.contents[1].contents[0].contents[0].text)
         // 多久之前發表在
         const text = $(this).find('.member').text().split(' ').map((text) => {
           const newText = text.split('在')[0] + '在'
@@ -35,7 +32,6 @@ export default async (event) => {
         bubble.body.contents[1].contents[1].contents[1].text = $(this).find('.content-box .member a:nth-child(2)').text() || '此篇無相關版'
         // 文章簡介
         bubble.body.contents[2].contents[0].text = $(this).find('.functionLine .pv').text()
-        console.log(bubble.body.contents[2].contents[0].text)
         // 網址來源
         if ($(this).find('.content-box .img a').attr('href') === undefined) {
           bubble.footer.contents[0].action.uri = 'https://www.league-funny.com/' + $(this).find('.content-box .text a').attr('href')
