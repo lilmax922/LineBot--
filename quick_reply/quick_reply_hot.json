@@ -18,7 +18,7 @@
         "action": {
           "type": "message",
           "label": "八卦新聞",
-          "text": "八卦新聞"
+          "text": "!熱門 八卦"
         }
       },
       {
@@ -27,7 +27,7 @@
         "action": {
           "type": "message",
           "label": "休閒娛樂",
-          "text": "休閒娛樂"
+          "text": "!熱門 娛樂"
         }
       },
       {
@@ -36,7 +36,7 @@
         "action": {
           "type": "message",
           "label": "英雄聯盟",
-          "text": "英雄聯盟"
+          "text": "!熱門 英雄聯盟"
         }
       },
       {
@@ -45,7 +45,7 @@
         "action": {
           "type": "message",
           "label": "爐石戰記",
-          "text": "爐石戰記"
+          "text": "!熱門 爐石戰記"
         }
       },
       {
@@ -54,7 +54,7 @@
         "action": {
           "type": "message",
           "label": "寶可夢",
-          "text": "寶可夢"
+          "text": "!熱門 寶可夢"
         }
       },
       {
@@ -63,7 +63,7 @@
         "action": {
           "type": "message",
           "label": "Apex英雄",
-          "text": "Apex英雄"
+          "text": "!熱門 apex英雄"
         }
       },
       {
@@ -72,7 +72,7 @@
         "action": {
           "type": "message",
           "label": "福利",
-          "text": "福利"
+          "text": "!熱門 福利"
         }
       },
       {
@@ -81,7 +81,7 @@
         "action": {
           "type": "message",
           "label": "寵物",
-          "text": "寵物"
+          "text": "!熱門 寵物"
         }
       },
       {
@@ -90,7 +90,7 @@
         "action": {
           "type": "message",
           "label": "動漫",
-          "text": "動漫"
+          "text": "!熱門 動漫"
         }
       },
       {
@@ -99,7 +99,7 @@
         "action": {
           "type": "message",
           "label": "電影",
-          "text": "電影"
+          "text": "!熱門 電影"
         }
       },
       {
@@ -108,7 +108,7 @@
         "action": {
           "type": "message",
           "label": "迷因",
-          "text": "迷因"
+          "text": "!熱門 迷因"
         }
       },
       {
@@ -117,7 +117,7 @@
         "action": {
           "type": "message",
           "label": "綜合遊戲討論",
-          "text": "綜合遊戲討論"
+          "text": "!熱門 遊戲"
         }
       }
     ]

@@ -9,7 +9,7 @@
         "action": {
           "type": "message",
           "label": "八卦新聞",
-          "text": "!含金 八卦新聞"
+          "text": "!含金 八卦"
         }
       },
       {
@@ -18,7 +18,7 @@
         "action": {
           "type": "message",
           "label": "休閒娛樂",
-          "text": "!含金 休閒娛樂"
+          "text": "!含金 娛樂"
         }
       },
       {
@@ -54,7 +54,7 @@
         "action": {
           "type": "message",
           "label": "Apex英雄",
-          "text": "!含金 Apex英雄"
+          "text": "!含金 apex英雄"
         }
       },
       {
@@ -108,7 +108,7 @@
         "action": {
           "type": "message",
           "label": "綜合遊戲討論",
-          "text": "!含金 綜合遊戲討論"
+          "text": "!含金 遊戲"
         }
       },
       {
@@ -117,7 +117,7 @@
         "action": {
           "type": "message",
           "label": "手遊綜合討論",
-          "text": "!含金 手遊綜合討論"
+          "text": "!含金 手遊"
         }
       }
     ]
