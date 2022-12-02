@@ -1,4 +1,8 @@
 # LineBot-遊戲大亂源
+
+好友ID:@368uzwcl
+資料來源:https://www.league-funny.com/
+
 安安！
 我們為您提供了討論度最熱門的Twitch 遊戲實況直播、遊戲影片、電競遊戲新聞以及各類遊戲閒聊。
 
