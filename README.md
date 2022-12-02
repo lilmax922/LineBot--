@@ -13,5 +13,5 @@ Ex：!熱門 英雄聯盟　或是　 !hot lol
 ### 生活類看板：
 八卦(gossiping)、娛樂(funny)、福利(hso)、電影(movie)、寵物(pet)、動漫(acg)、3c(3c)、運動(sport)、迷因(meme)。
 ___
-Line ID:@368uzwcl
+Line ID:@368uzwcl<br>
 資料來源:https://www.league-funny.com/
