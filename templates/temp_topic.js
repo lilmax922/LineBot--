@@ -109,10 +109,10 @@ export default {
           label: '看內文去',
           uri: 'https://linecorp.com'
         },
-        color: '#aaa8Fa'
+        color: '#CE8086'
       }
     ],
     flex: 0,
-    backgroundColor: '#ffeeef'
+    backgroundColor: '#EFE3D8'
   }
 }
