@@ -15,6 +15,7 @@ export default async (event) => {
         break
       }
     }
+    // console.log(name)
     const { data } = await axios.get('https://www.league-funny.com/' + name)
     const $ = cheerio.load(data)
     const articles = []
