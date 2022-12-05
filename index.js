@@ -14,6 +14,10 @@ import quickReplyHot from './quick_reply/quick_reply_hot.js'
 import quickReplyNew from './quick_reply/quick_reply_new.js'
 import quickReplyGolden from './quick_reply/quick_reply_golden.js'
 import quickReplyComment from './quick_reply/quick_reply_comment.js'
+import axios from 'axios'
+
+// 改 axios 的預設值
+axios.defaults.headers['Accept-Encoding'] = 'text/html'
 
 const app = express()
 
