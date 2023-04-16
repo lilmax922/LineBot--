@@ -1,4 +1,7 @@
 # LineBot-遊戲大亂源
+
+Line ID:@368uzwcl<br>
+
 安安！<br>
 遊戲大亂源 為您提供了討論度最熱門的Twitch 遊戲實況直播、遊戲影片、電競遊戲新聞以及各類遊戲閒聊。
 ## 三種使用方式說明：
@@ -15,5 +18,5 @@ Ex：!熱門 英雄聯盟　or　 !hot lol<br>
 ### 生活類看板：
 八卦(gossiping)、娛樂(funny)、福利(hso)、電影(movie)、寵物(pet)、動漫(acg)、3c(3c)、運動(sport)、迷因(meme)。
 <hr>
-Line ID:@368uzwcl<br>
+
 資料來源:https://www.league-funny.com/
