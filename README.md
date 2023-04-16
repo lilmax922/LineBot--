@@ -4,12 +4,11 @@
 ![image](https://github.com/lilmax922/LineBot-BestGamingForum/blob/master/line-add.png)<br>
 安安！<br>
 遊戲大亂源 為您提供了討論度最熱門的Twitch 遊戲實況直播、遊戲影片、電競遊戲新聞以及各類遊戲閒聊。
-## 使用方式說明：
-* 使用指令：!分類 看板名稱
+## 兩種使用方式說明：
+1. 使用指令：!分類 看板名稱
 Ex：!熱門 英雄聯盟　or　 !hot lol <br>
 請注意： ! 和 空格(1格) 皆為半形
-* 直接輸入想看的文章關鍵字
-* 使用指令：!分類 看板名稱<br>
+2. 點擊圖文選單選擇分類後點擊 Quick Replies 小按鈕選擇看板
 
 ## 文章分類&看板項目
 ### 文章分類：
